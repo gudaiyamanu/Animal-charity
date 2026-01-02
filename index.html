@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paws & Care – Animal Charity</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <h1>Paws & Care</h1>
+    <nav>
+      <a href="#mission">Mission</a>
+      <a href="#programs">Programs</a>
+      <a href="#donate">Donate</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <!-- Hero Section -->
+     
+  
+  <section class="hero">
+    <h1>Saving Animals. Spreading Love.</h1>
+    <p>We protect, rescue, and care for animals in need.</p>
+    <button onclick="scrollToDonate()">Donate Now</button>
+  </section>
+
+  <!-- Mission -->
+   
+  <section id="mission" class="section">
+    <h2>Our Mission</h2>
+    <p>
+     Paws & Care is a non-profit organization that works to save homeless animals, give them proper medical treatment, and help them find safe and loving homes.
+    </p>
+  </section>
+
+  <!-- Programs -->
+
+  <section id="programs" class="section bg-image">
+    <h2>Our Programs</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Animal Rescue</h3>
+        <p>Rescuing injured and abandoned animals from streets.</p>
+      </div>
+
+      <div class="card">
+        <h3>Medical Care</h3>
+        <p>Providing vaccinations, surgeries, and rehabilitation.</p>
+      </div>
+
+      <div class="card">
+        <h3>Adoption</h3>
+        <p>Helping animals find safe and loving forever homes.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Donate -->
+  <section id="donate" class="donate-section">
+    <h2>Ways to Donate</h2>
+    <p>Your support helps save lives ❤️</p>
+
+    <div class="donation-box">
+      <input type="number" id="amount" placeholder="Enter amount (₹)">
+      <button onclick="donate()">Donate</button>
+      <p id="message"></p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact-section">
+    <h2>Contact Us</h2>
+    <p>Email: support@abc.org</p>
+    <p>Phone: +91 XXXXX 43210</p>  
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Paws & Care | Animal Charity Organization</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

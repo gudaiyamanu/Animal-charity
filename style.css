@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Times New Roman', Times, serif;
+}
+
+body {
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: #2d6a4f;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+  background: url("https://images.unsplash.com/photo-1558788353-f76d92427f16") center/cover;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero button {
+  margin-top: 20px;
+  padding: 10px 25px;
+  background: #40916c;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.hero button:hover {
+  background: #1b4332;
+}
+
+/* Sections */
+.section {
+  padding: 50px 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.bg-image{
+  background-image: url("image/bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #e6f3ed;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow:  0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+/* Donate */
+.donation-box {
+  margin-top: 20px;
+}
+
+.donation-box input {
+  padding: 10px;
+  width: 200px;
+}
+
+.donate-section{
+  background-color: rgb(222, 243, 228);
+  padding: 50px 20px;
+  text-align: center;
+  border-radius: 20px;
+  margin: 40px;
+}
+
+.donation-box button {
+  padding: 10px 20px;
+  background: #2d6a4f;
+  border: 10px solid rgb(14, 13, 13);
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.contact-section{
+  background-image: url("image/dog2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 60px 20px;
+  text-align: center;
+  color: white;
+}
+
+.contact-section h2{
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.contact-section p{
+  font-size: 20px;
+  margin: 8px 0;
+}
+
+#message {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  background: #2d6a4f;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
